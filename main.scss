@@ -1,0 +1,21 @@
+@use 'sass:list';
+
+.Tbase, .Bbase {
+  height: 50vh;
+}
+.Tbase {
+  background-color: #eee;
+}
+$sel: a b c;
+$color: orange lightgreen lightblue;
+
+@for $i from 1 through 3 {
+  .#{list.nth($sel, $i)} {
+    width: (200 + $i*50px);
+    height: (30 + $i*30px);
+    background-color: list.nth($color, $i);
+  }
+}
+.fl {
+  float: left;
+}
