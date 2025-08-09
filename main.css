@@ -1,0 +1,19 @@
+.Lbase, .Rbase {
+  width: 50%; height: 98vh;
+  float: left;
+  border: 1px dotted darkgray;
+  box-sizing: border-box;
+}
+.a {
+  width: 200px; height: 100px;
+  background-color: pink;
+}
+.b {
+  width: 250px; height: 150px;
+  background-color: orange;
+}
+.c {
+  width: 300px; height: 200px;
+  background-color: skyblue;
+}
+.fl {float: left;}
