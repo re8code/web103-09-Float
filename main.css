@@ -1,20 +1,21 @@
-.Lbase, .Rbase {
-  width: 50%; height: 98vh;
-  float: left;
-  border: 1px dotted darkgray;
-  box-sizing: border-box;
-}
 .a {
-  width: 200px; height: 100px;
+  width: 200px; height: 50px;
   background-color: pink;
 }
 .b {
-  width: 250px; height: 150px;
+  width: 250px; height: 100px;
   background-color: orange;
 }
 .c {
-  width: 300px; height: 200px;
+  width: 300px; height: 150px;
   background-color: skyblue;
 }
-.fl {float: left;}
-.dpin {display: inline-block;}
+
+
+
+
+
+.base {
+  width: 500px; height: 600px;
+  border: 1px solid black;
+}
